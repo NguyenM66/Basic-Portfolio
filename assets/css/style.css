@@ -9,14 +9,35 @@ h1 {
 	line-height: 70px;
 }
 
+div.header {
+	margin-top: 0;
+	background-color: white;
+	border-bottom: double thick #cccccc;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	border-style: solid;
+	border-color: white;
+	border-width: 10px;
+	background-image: url("C:/Users/MonicaNguyen/Basic-Portfolio/assets/images/concrete_seamless.png");
+}
+
+p.bio {
+	color: #777777;
+}
+
 div.links {
-	float: right;
+	text-align: right;
+	line-height: 70px;
 }
 
 div.about {
 	float: left;
 	width: 400px;
 	height: 400px;
+	background-color: white;
 }
 
 h2 {
@@ -25,23 +46,26 @@ h2 {
 
 p.bio {
 	float: right;
-	width: 400px;
-	height: 400px;
+	width: 600px;
+	height: 500px;
+	word-wrap: break-word;
 }
 
 div.connect {
 	float: right;
-	width: 400px;
-	height: 400px;
+	width: 300px;
+	height: 200px;
+	background-color: white;
 }
 
 div.footer {
 	width: 100%;
 	position: fixed;
-	bottom: 0px;
+	bottom: 0%;
 	text-align: center;
 	background-color: #666666;
 	color: #777777;
+	border-top: double thick #4aaaa5;
 }
 h3 {
 	color: #4aaaa5;
