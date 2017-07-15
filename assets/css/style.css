@@ -1,0 +1,48 @@
+/* This is how to comment out */
+
+h1 {
+	background-color: #4aaaa5;
+	color: white;
+	width: 250px;
+	height: 70px;
+	text-align: center;
+	line-height: 70px;
+}
+
+div.links {
+	float: right;
+}
+
+div.about {
+	float: left;
+	width: 400px;
+	height: 400px;
+}
+
+h2 {
+	color: #4aaaa5;
+}
+
+p.bio {
+	float: right;
+	width: 400px;
+	height: 400px;
+}
+
+div.connect {
+	float: right;
+	width: 400px;
+	height: 400px;
+}
+
+div.footer {
+	width: 100%;
+	position: fixed;
+	bottom: 0px;
+	text-align: center;
+	background-color: #666666;
+	color: #777777;
+}
+h3 {
+	color: #4aaaa5;
+}
