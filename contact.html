@@ -28,17 +28,22 @@
 		<!-- Block for all about content-->
 		<div class="contact">
 				<h2 class="contact">Contact</h2>
-					
+	
+					<!-- for the contact page -->
 					<div class="form">
 
-						<!-- for the contact page -->
-						<form class="form">
-							<p class="form">Name</p>
-								<input class="name" type="text" name="name" placeholder="John Smith">
-							<p class="form">Email</p>
-								<input class="email" type="text" name="email" placeholder="example@gmail.com">
-							<p class="form">Message</p>
-								<input class="message" type="mailto:monica.nguyen@gmail.com?subject=Email From Student Bio" name="message" placeholder="Your Message Here">
+						<form class="form" action ="/action_page.php">
+
+							<label class="form" for="name">Name</label>
+							<input class="name" type="text" name="name" placeholder="John Smith">
+
+							<label class="form" for="form">Email</label>
+							<input class="email" type="text" name="email" placeholder="example@gmail.com">
+
+							<label class="form" for="form">Message</label>
+							<textarea class="message" type="mailto:monica.nguyen@gmail.com?subject=Email From Student Bio" name="message" placeholder="Your Message Here..."></textarea>
+
+							<input class="submit" type="submit" value="Submit">
 
 						</form>
 					</div>
