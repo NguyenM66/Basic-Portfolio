@@ -180,33 +180,63 @@ div.form {
 }
 
 form.form {
-	border: solid black;
 	color: #777777;
 	font-family: sans-serif; 
-	font-size: 15px;
 
 }
 
-p.form {
-	border: solid black;
+label.form {
+	font-size: 17px;
+}
+
+input.[type=text], select, textarea {
+	border: solid #777777;
+	width: 100%;
+	padding: 26px;
+	border: 1px solid #777777;
+	border-radius: 4px;
+	box-sizing: border-box;
+	margin-top: 6px;
+	margin-bottom: 16px;
+	resize: vertical;
+	font-size: 15px;
 }
 
 input.name{
-	border: solid black;
+	border: 1px solid #777777;
+	border-radius: 4px;
 	width: 100%;
 	height: 25px;
+	margin-bottom: 15px;	
 }
 
 input.email{
-	border: solid black;
+	border: 1px solid #777777;
+    border-radius: 4px;
 	width: 100%;
 	height: 25px;
+	margin-bottom: 15px;	
 }
 
-input.message{
-	border: solid black;
+textarea.message {
+	border: 1px solid #777777;
+	border-radius: 4px;
 	width: 100%;
-	height: 115px;
+	height: 155px;
+	margin-bottom: 15px;	
+}
+
+input[type=submit] {
+    background-color: #4aaaa5;
+    color: #ffffff;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
 }
 
 /* content indiviidual to portfolio page */
@@ -216,7 +246,7 @@ div.portfolio {
 	top: 125px;
 	left: 175px;
 	width: 650px;
-	height: 500px;
+	height: 700px;
 	background-color: white;
 }
 
@@ -233,34 +263,70 @@ h2.portfolio {
 	font-size: 30px;
 }
 
-img.projects {
-	border-right: 20px solid;
-	border-bottom: 10px solid;
-	border-color: #ffffff;
-	float: left;
-	width: 175px;
-	height: 175px;
+div.game1 {
+	position: absolute;
+	top: 125px;
+	left: 20px;
+	width: 200px;
+	height: 150px;
 }
 
+div.game2 {
+	position: absolute;
+	top: 125px;
+	right: 40px;
+	width: 200px;
+	height: 150px;
+}
+div.game3 {
+	position: absolute;
+	top: 315px;
+	left: 20px;
+	width: 200px;
+	height: 150px;
+}
 
-div.projects {
+div.game4 {
+	position: absolute;
+	top: 315px;
+	right: 40px;
+	width: 200px;
+	height: 150px;
+}
+
+div.game5 {
+	position: absolute;
+	top: 505px;
+	left: 20px;
+	width: 200px;
+	height: 150px;
+}
+
+div.game {
 	position: absolute;
 	left: 20px;
 	top: 100px;
 	width: 90%;
 }
 
-p.title {
-	border: solid black;
+img.game {
 	position: absolute;
-	bottom: 0px;
-	left: 175px;
-	width: 25%;
+	top: -100px;
+	left: -20px;
+	width: 200px;
+	height: 150px;
+}
+
+p.title {
+	position: absolute;
+	top: -15px;
+	left: -20px;
+	width: 200px;
 	height: 40px;
 	background-color: #4aaaa5;
 	color:#ffffff;
 	font-family: 'Georgia';
 	font-size: 15px;
 	text-align: center;
-	line-height: 14px;
+	line-height: 30px;
 }
